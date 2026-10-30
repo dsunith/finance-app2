@@ -1,0 +1,14 @@
+{
+  "name": "github-sdlc-automation",
+  "private": true,
+  "workspaces": [
+    "finance-app"
+  ],
+  "scripts": {
+    "dev": "npm --workspace=finance-app run dev",
+    "proxy": "npm --workspace=finance-app run proxy",
+    "build": "npm --workspace=finance-app run build",
+    "test": "npm --workspace=finance-app run test",
+    "lint": "npm --workspace=finance-app run lint"
+  }
+}
